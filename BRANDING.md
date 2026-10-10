@@ -27,8 +27,11 @@ In-app links: community -> https://www.skool.com/claudeacademy, website -> https
 ## Files changed by `rebrand.py`
 
 - `apps/designcraft-web/index.html`
+- `crates/compose/Cargo.toml`
 - `crates/engine/src/cmd/inspect.rs`
 - `crates/engine/src/links.rs`
+- `crates/tools/Cargo.toml`
+- `crates/ui-egui/Cargo.toml`
 - `crates/ui-egui/src/about.rs`
 - `crates/ui-egui/src/chrome.rs`
 - `crates/ui-egui/src/i18n.rs`

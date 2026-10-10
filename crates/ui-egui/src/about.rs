@@ -12,7 +12,7 @@ use crate::theme::{Tokens, semibold};
 
 /// ArtCraft brand blue (from `docs/brand/artcraft-mark.svg`).
 pub const BRAND: Color32 = Color32::from_rgb(0x2e, 0x6f, 0xb5);
-/// Discord's brand colour, used for the "Join our Discord" buttons (colour only; no Discord artwork).
+/// Discord's brand colour, used for the "Claude Academy community" buttons (colour only; no Discord artwork).
 pub const DISCORD: Color32 = Color32::from_rgb(0x58, 0x65, 0xf2);
 
 /// The ArtCraft mark outline (viewBox -10 -19.42 136.34 136.34), from `docs/brand/artcraft-mark.svg`.
@@ -78,7 +78,7 @@ pub fn paint_chat_icon(p: &egui::Painter, c: egui::Pos2, s: f32, color: Color32)
     p.circle_filled(body.center() + vec2(s * 0.18, 0.0), eye, bg);
 }
 
-/// The big "Join our Discord" button. Returns true when clicked.
+/// The big "Claude Academy community" button. Returns true when clicked.
 pub fn discord_button(ui: &mut egui::Ui, label: &str, size: egui::Vec2) -> bool {
     let (r, resp) = ui.allocate_exact_size(size, Sense::click());
     let resp = resp.on_hover_text(links::DISCORD).on_hover_cursor(egui::CursorIcon::PointingHand);

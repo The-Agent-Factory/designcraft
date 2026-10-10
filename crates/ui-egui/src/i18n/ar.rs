@@ -159,7 +159,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
     ("No document open", "لا يوجد مستند مفتوح"),
     ("Join the Claude Academy community", "انضم إلى مجتمع Claude Academy"),
     ("Get help, share your layouts and shape what we build next.", "احصل على المساعدة وشارك تصميماتك وساهم في تطوير التطبيق."),
-    ("Join our Discord", "انضم إلى Discord"),
+    ("Claude Academy community", "انضم إلى Discord"),
     ("Community", "المجتمع"),
     ("Join the community", "انضم إلى المجتمع"),
     ("skool.com/claudeacademy: help, feedback and show-and-tell", "skool.com/claudeacademy — مساعدة وآراء وعرض الأعمال"),

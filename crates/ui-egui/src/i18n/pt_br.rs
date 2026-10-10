@@ -162,7 +162,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
         "Get help, share your layouts and shape what we build next.",
         "Obtenha ajuda, compartilhe seus layouts e ajude a moldar o que construímos em seguida.",
     ),
-    ("Join our Discord", "Junte-se ao nosso Discord"),
+    ("Claude Academy community", "Junte-se ao nosso Discord"),
     ("Community", "Comunidade"),
     ("Join the community", "Junte-se à comunidade"),
     ("skool.com/claudeacademy: help, feedback and show-and-tell", "skool.com/claudeacademy — ajuda, feedback e demonstrações"),

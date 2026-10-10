@@ -2513,7 +2513,7 @@ const TABLE: &[(&str, [&str; 5])] = &[
     ("H&J Violations", ["H&J Violations", "H&J Violations", "H&J Violations", "H&J Violations", "断字与对齐违规"]),
     ("Include Bleed", ["Include Bleed", "Include Bleed", "Include Bleed", "Include Bleed", "包含出血"]),
     ("Include Stroke Weight", ["Include Stroke Weight", "Include Stroke Weight", "Include Stroke Weight", "Include Stroke Weight", "包含描边粗细"]),
-    ("Join our Discord", ["Join our Discord", "Join our Discord", "Join our Discord", "Join our Discord", "加入我们的 Discord 社区"]),
+    ("Claude Academy community", ["Claude Academy community", "Claude Academy community", "Claude Academy community", "Claude Academy community", "加入我们的 Discord 社区"]),
     ("Keep Violations", ["Keep Violations", "Keep Violations", "Keep Violations", "Keep Violations", "保持选项违规"]),
     (
         "Overprint [Black] Swatch at 100%",

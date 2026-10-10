@@ -1,3 +1,4 @@
+# Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 [package]
 name = "designcraft-tools"
 version.workspace = true
