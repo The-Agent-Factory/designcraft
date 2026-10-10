@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! The menu bar tree (InDesign order), UI-only commands, keyboard shortcuts and Quick Apply.
 
 use serde_json::{Value, json};
@@ -129,12 +130,12 @@ pub const UI_COMMANDS: &[(&str, &str, Option<&str>, &str)] = &[
     ("window.split", "Split Window", None, "{on?: bool} — two views of the document side by side, each with its own zoom and scroll"),
     ("window.newWindow", "New Window", None, "{on?: bool} — another view of the active document in its own window"),
     ("window.taskBar", "Contextual Task Bar", None, "{}"),
-    ("help.discord", "Join the ArtCraft Discord…", None, "{} — opens https://discord.gg/artcraft in the browser"),
-    ("help.appPage", "DesignCraft Website…", None, "{} — opens https://getartcraft.com/apps/designcraft"),
+    ("help.discord", "Claude Academy community…", None, "{} — opens https://www.skool.com/claudeacademy in the browser"),
+    ("help.appPage", "DesignCraft Website…", None, "{} — opens https://claudeacademy.ca"),
     ("help.github", "DesignCraft on GitHub…", None, "{} — opens https://github.com/storytold/designcraft"),
     ("help.issues", "Report an Issue…", None, "{} — opens the GitHub issue tracker"),
-    ("help.website", "ArtCraft Website…", None, "{} — opens https://getartcraft.com"),
-    ("help.app", "ArtCraft App Page…", None, "{app} — opens https://getartcraft.com/apps/{app} (e.g. photocraft)"),
+    ("help.website", "Claude Academy website…", None, "{} — opens https://claudeacademy.ca"),
+    ("help.app", "Claude Academy app page…", None, "{app} — opens https://claudeacademy.ca/apps/{app} (e.g. photocraft)"),
     (
         "help.about",
         "About DesignCraft",

@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! ArtCraft community and project links (Help menu, About, start screen, CLI, MCP).
 
 use serde_json::{Value, json};
@@ -5,11 +6,11 @@ use serde_json::{Value, json};
 /// The app's slug on getartcraft.com and GitHub.
 pub const APP: &str = "designcraft";
 /// The ArtCraft community Discord.
-pub const DISCORD: &str = "https://discord.gg/artcraft";
+pub const DISCORD: &str = "https://www.skool.com/claudeacademy";
 /// The ArtCraft website.
-pub const WEBSITE: &str = "https://getartcraft.com";
+pub const WEBSITE: &str = "https://claudeacademy.ca";
 /// DesignCraft's page on the ArtCraft website.
-pub const APP_PAGE: &str = "https://getartcraft.com/apps/designcraft";
+pub const APP_PAGE: &str = "https://claudeacademy.ca";
 /// DesignCraft's source repository.
 pub const GITHUB: &str = "https://github.com/storytold/designcraft";
 /// Where to report bugs and request features.

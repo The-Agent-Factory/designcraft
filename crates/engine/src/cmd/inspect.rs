@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! Queries for agents and UIs: document structure, items, pages.
 
 use designcraft_doc::{Content, Item};
@@ -10,7 +11,7 @@ pub fn specs() -> Vec<CommandSpec> {
     vec![
         cmd!(query "document.inspect", "Inspect Document", [], None, "{} → pages, spreads, items, stories (with overset), styles, swatches, selection", has_doc, inspect),
         cmd!(query "app.links", "Community & Project Links", [], None,
-            "{} → {discord, website, appPage, github, issues} (ArtCraft Discord, website, DesignCraft page and repository)", always, |_, _| Ok(crate::links::all())),
+            "{} → {discord, website, appPage, github, issues} (Claude Academy community, website, DesignCraft page and repository)", always, |_, _| Ok(crate::links::all())),
         cmd!(query "document.list", "List Documents", [], None, "{}", always, |s, _| {
             Ok(json!(s.documents().iter().enumerate().map(|(i, d)| json!({"index": i, "title": d.title(), "dirty": d.is_dirty(), "active": Some(i) == s.active_index()})).collect::<Vec<_>>()))
         }),

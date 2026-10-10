@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! Original Brazilian Portuguese interface translations, written from the English source
 //! using ordinary Brazilian Portuguese computing vocabulary.
 pub(super) const TABLE: &[(&str, &str)] = &[
@@ -156,7 +157,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
     ("  Open sample magazine  ", "  Abrir revista de exemplo  "),
     ("Start a new document", "Iniciar um novo documento"),
     ("No document open", "Nenhum documento aberto"),
-    ("Join the ArtCraft community", "Junte-se à comunidade ArtCraft"),
+    ("Join the Claude Academy community", "Junte-se à comunidade Claude Academy"),
     (
         "Get help, share your layouts and shape what we build next.",
         "Obtenha ajuda, compartilhe seus layouts e ajude a moldar o que construímos em seguida.",
@@ -164,7 +165,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
     ("Join our Discord", "Junte-se ao nosso Discord"),
     ("Community", "Comunidade"),
     ("Join the community", "Junte-se à comunidade"),
-    ("discord.gg/artcraft — help, feedback and show-and-tell", "discord.gg/artcraft — ajuda, feedback e demonstrações"),
+    ("skool.com/claudeacademy: help, feedback and show-and-tell", "skool.com/claudeacademy — ajuda, feedback e demonstrações"),
     ("  OK  ", "  OK  "),
     ("Float panel", "Painel flutuante"),
     ("Dock panel", "Painel encaixado"),
@@ -848,7 +849,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
     ("Merge into Active Layer", "Mesclar na camada ativa"),
     ("Misspelled word → Correction (one per line):", "Palavra incorreta → Correção (uma por linha):"),
     ("Mobile", "Dispositivo móvel"),
-    ("More ArtCraft apps", "Mais aplicativos ArtCraft"),
+    ("More Atelier apps", "Mais aplicativos Claude Academy"),
     ("Move Selection Here", "Mover a seleção para cá"),
     ("Move to Color Group", "Mover para grupo de cores"),
     ("Move to Group", "Mover para grupo"),
@@ -893,7 +894,7 @@ pub(super) const TABLE: &[(&str, &str)] = &[
     ("Page Numbering", "Numeração de página"),
     ("Page · PPI", "Página · PPI"),
     ("Pages:", "Páginas:"),
-    ("Part of the ArtCraft suite of open creative tools.", "Parte do conjunto ArtCraft de ferramentas criativas abertas."),
+    ("Free preview from Claude Academy.", "Parte do conjunto Claude Academy de ferramentas criativas abertas."),
     ("Pasteboard Options", "Opções da área de transferência"),
     ("Path", "Caminho"),
     ("Place the insertion point in a table, or create one.", "Coloque o ponto de inserção em uma tabela ou crie uma."),
